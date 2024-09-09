@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/Fondo_con_puntos.png");
+    background-size: 100%;
+}
+    header{
+        background-image: url("../images/rocket.png");
+        background-size: 100%;
+        color: azure;
+        background-repeat: no-repeat;
+    }
+    main{
+    }
+        section{
+            display: flex;
+            align-items: center;
+            border: solid 4px white;
+        } 
+        @media (max-width: 600px) {
+            section{
+                flex-direction: column;
+            }
+        }
+           section img{
+            width: 30%;
+            border: solid 4px white;
+           }
+           section div{
+            margin: 0 400px;
+           }
+            section div h2{
+                color: #fff;
+            }
+    footer{
+        align-content: center;
+        background-color: #fff;
+        height: 87px;
+        text-align: center;
+    }
